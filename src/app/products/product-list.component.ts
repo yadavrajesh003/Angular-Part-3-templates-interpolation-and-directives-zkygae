@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'pm-products',
+ //1 selector: 'pm-products',
   templateUrl: './product-list.component.html'
 })
 export class ProductListComponent {
   pageTitle: string = 'Product List';
-  products: any[] = [
+  /* products: any[] = [
     {
       "productId": 2,
       "productName": "Garden Cart",
@@ -27,6 +27,6 @@ export class ProductListComponent {
       "starRating": 4.8,
       "imageUrl": "assets/images/hammer.png"
     }
-  ];
+  ]; */ //2
 
 }
